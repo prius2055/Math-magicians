@@ -1,0 +1,32 @@
+.calculator {
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+table {
+  border: 1px #777 solid;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px #777 solid;
+  padding: 50px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.first-row {
+  background-color: #777;
+  color: white;
+  text-align: right;
+}
+
+.other-rows {
+  background-color: #ccc;
+}
+
+.last-data {
+  background-color: orange;
+  border-top: 2px white solid;
+}
