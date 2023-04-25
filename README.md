@@ -61,7 +61,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  
 ### Key Features <a name="key-features"></a>
 
-- **[Check for errors with linters]**
+- **[A UI interface for a calculator application]**
+- **[Linters, to eliminate errors and better optimization]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +153,7 @@ GitHub Pages
 
 - [ ] **[Mobile Responsiveness]**
 - [ ] **[More stylings]**
-- [ ] **[Customizing the react application]**
+- [ ] **[Adding more functionality to the application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
