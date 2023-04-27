@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import propTypes from 'prop-types';
+// import propTypes from 'prop-types';
 import calculate from '../logic/calculate';
+import CalculatorDisplay from './CalculatorDisplay';
+
 import './Calculator.css';
 
 const symbolArray = [
@@ -25,7 +27,7 @@ const symbolArray = [
   { id: 19, type: '=' },
 ];
 
-const Calculator = (props) => {
+const Calculator = () => {
   const [result, setResult] = useState({
     total: null,
     next: 0,
@@ -35,37 +37,36 @@ const Calculator = (props) => {
   const onButtonclickHandler = (symbol) => {
     const buttonName = symbol.type;
     const calculateResult = calculate(result, buttonName);
-
     setResult(calculateResult);
   };
 
-  const { onButtonClick } = props;
-  onButtonClick(result);
-
   return (
     <div className='calculator'>
-      {symbolArray.map((symbol, i) => (
-        <button
-          type='submit'
-          className={
-            i === 16
-              ? 'large-buttons'
-              : i === 3 || i === 7 || i === 11 || i === 15 || i === 18
-              ? 'last-buttons'
-              : 'other-buttons'
-          }
-          key={symbol.id}
-          onClick={onButtonclickHandler.bind('null', symbol)}
-        >
-          {symbol.type}
-        </button>
-      ))}
+      <CalculatorDisplay display={result} />
+      <div className='calculator-box'>
+        {symbolArray.map((symbol, i) => (
+          <button
+            type='submit'
+            className={
+              i === 16
+                ? 'large-buttons'
+                : i === 3 || i === 7 || i === 11 || i === 15 || i === 18
+                ? 'last-buttons'
+                : 'other-buttons'
+            }
+            key={symbol.id}
+            onClick={onButtonclickHandler.bind('null', symbol)}
+          >
+            {symbol.type}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
 
 export default Calculator;
 
-Calculator.propTypes = {
-  onButtonClick: propTypes.func.isRequired,
-};
+// Calculator.propTypes = {
+//   onButtonClick: propTypes.func.isRequired,
+// };
