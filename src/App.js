@@ -13,7 +13,6 @@ function App() {
 
   const displayHandler = (symbol) => {
     setCalculatorDisplay(symbol);
-    // console.log(symbol);
   };
 
   return (
