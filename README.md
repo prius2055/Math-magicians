@@ -64,6 +64,7 @@ It is bootstrapped with [Create React App](https://github.com/facebook/create-re
 
 - **[A UI interface for a calculator application]**
 - **[A functional calculator application]**
+- **[Get quotes from an API with fetch and display the quote]**
 - **[Linters, to eliminate errors and better optimization]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -155,6 +156,7 @@ GitHub Pages
 
 - [ ] **[Mobile Responsiveness]**
 - [ ] **[More stylings]**
+- [ ] **[Adding navigations]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
