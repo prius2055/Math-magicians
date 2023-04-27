@@ -1,9 +1,9 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-import './Display.css';
+import './CalculatorDisplay.css';
 
-const Display = (props) => {
+const CalculatorDisplay = (props) => {
   const { display } = props;
   const { next, total, operation } = display;
   return (
@@ -17,8 +17,8 @@ const Display = (props) => {
   );
 };
 
-export default Display;
+export default CalculatorDisplay;
 
-Display.propTypes = {
-  display: propTypes.func.isRequired,
+CalculatorDisplay.propTypes = {
+  display: propTypes.oneOfType([propTypes.object]).isRequired,
 };
