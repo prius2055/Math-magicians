@@ -30,7 +30,8 @@
 
 # 📖 [Math magicians] <a name="about-project"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Math Magician app for all maths lovers.
+It is bootstrapped with [Create React App](https://github.com/facebook/create-react-app). and helps you perform your mathematical operations in short time.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,6 +63,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Key Features <a name="key-features"></a>
 
 - **[A UI interface for a calculator application]**
+- **[A functional calculator application]**
 - **[Linters, to eliminate errors and better optimization]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,7 +95,7 @@ Example command:
 
 ```sh
   cd my-folder
-  git clone: (https://github.com/prius2055/JavaScript-capstone-project.git)
+  git clone: (https://github.com/prius2055/Math-magicians.git)
 ```
 
 ### Install
@@ -153,7 +155,7 @@ GitHub Pages
 
 - [ ] **[Mobile Responsiveness]**
 - [ ] **[More stylings]**
-- [ ] **[Adding more functionality to the application]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

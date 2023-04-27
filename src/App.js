@@ -1,10 +1,24 @@
-import './App.css';
+import { useState } from 'react';
+import Display from './components/Display';
 import Calculator from './components/Calculator';
 
+import './App.css';
+
 function App() {
+  const [calculatorDisplay, setCalculatorDisplay] = useState({
+    next: 0,
+    total: null,
+    operation: null,
+  });
+
+  const displayHandler = (symbol) => {
+    setCalculatorDisplay(symbol);
+  };
+
   return (
-    <div className="App">
-      <Calculator />
+    <div className='App'>
+      <Display display={calculatorDisplay} />
+      <Calculator onButtonClick={displayHandler} />
     </div>
   );
 }

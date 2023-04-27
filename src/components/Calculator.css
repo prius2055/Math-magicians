@@ -1,4 +1,31 @@
+
 .calculator {
-  max-width: 500px;
-  margin: 10px auto;
+  margin-top: 0;
+  width: 100%;
+  border-collapse: collapse;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator button {
+  border: 1px #777 solid;
+  padding: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.other-buttons {
+  width: 132.5px;
+  background-color: #ccc;
+}
+
+.large-buttons {
+  background-color: #ccc;
+  width: 265px;
+}
+
+.last-buttons {
+  width: 22.7px;
+  background-color: orange;
 }
