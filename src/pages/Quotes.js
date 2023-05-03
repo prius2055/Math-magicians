@@ -1,8 +1,8 @@
-// import { async } from 'q';
-
 import React, { useEffect, useState } from 'react';
 
-export default function Quote() {
+import './Home.css';
+
+export default function Quotes() {
   const [theQuote, setTheQuote] = useState('Loading quote');
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
@@ -28,14 +28,16 @@ export default function Quote() {
   }, [setTheQuote, setIsLoading]);
 
   return (
-    <div>
+    <div className='quotes'>
       {isLoading && <p>Loading quote...</p>}
       {hasError && (
         <p>Error Loading page at this time. Please check your network</p>
       )}
-      <p>{theQuote[0].quote}</p>
+      {!isLoading && !hasError && (
+        <p>
+          {theQuote[0].quote} -[{theQuote[0].author}]
+        </p>
+      )}
     </div>
   );
 }
-
-// export default Quote;

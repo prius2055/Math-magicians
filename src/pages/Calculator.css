@@ -1,9 +1,15 @@
-
 .calculator {
-  margin-top: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.calculator-box {
   width: 500px;
   border-collapse: collapse;
   flex-wrap: wrap;
+  box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
 .calculator button {

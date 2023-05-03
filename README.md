@@ -62,6 +62,7 @@ It is bootstrapped with [Create React App](https://github.com/facebook/create-re
  
 ### Key Features <a name="key-features"></a>
 
+- **[A Home page for the website]**
 - **[A UI interface for a calculator application]**
 - **[A functional calculator application]**
 - **[Get quotes from an API with fetch and display the quote]**
@@ -156,8 +157,7 @@ GitHub Pages
 
 - [ ] **[Mobile Responsiveness]**
 - [ ] **[More stylings]**
-- [ ] **[Adding navigations]**
-
+- [ ] **[Unit and integraion Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +177,7 @@ If you like this project then please follow me on Linkedin, Twitter and GitHub. 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microvers for this project!
+I would like to thank the Microverse team for putting this project task together!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,4 +186,3 @@ I would like to thank Microvers for this project!
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
-
