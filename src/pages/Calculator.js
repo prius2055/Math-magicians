@@ -66,7 +66,3 @@ const Calculator = () => {
 };
 
 export default Calculator;
-
-// Calculator.propTypes = {
-//   onButtonClick: propTypes.func.isRequired,
-// };
