@@ -72,7 +72,7 @@ It is bootstrapped with [Create React App](https://github.com/facebook/create-re
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- The live preview will be up soon.
+- Click [here](https://math-magician-ijj5.onrender.com/)to see a live demo of the apllication
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
