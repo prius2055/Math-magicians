@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import propTypes from 'prop-types';
 import calculate from '../logic/calculate';
 import CalculatorDisplay from './CalculatorDisplay';
 
@@ -43,7 +42,6 @@ const Calculator = () => {
   return (
     <div className='calculator'>
       <h3>Let&apos;s do some math!</h3>
-
       <div className='calculator-box'>
         <CalculatorDisplay display={result} />
         {symbolArray.map((symbol, i) => (
