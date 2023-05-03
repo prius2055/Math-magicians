@@ -1,3 +1,7 @@
+.home {
+  padding: 0 300px;
+}
+
 .home h3 {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -5,7 +9,7 @@
 
 .quotes {
   margin-top: 200px;
-  padding: 0 15px;
+  padding: 0 300px;
   text-align: center;
 }
 
